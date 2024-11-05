@@ -36,7 +36,7 @@ int findLargestLine(int *matrix) {
 }
 
 int main() {
-    printf("Matriz Dada:\n");
+    printf("Matriz pruebas:\n");
 
     int matrix[SIZE][SIZE] = {
         {1, 0, 1, 0, 1, 1},

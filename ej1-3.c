@@ -21,7 +21,7 @@ void aleatoriobinario(int **matrix, int size) {
     }
 }
 
-// Función para imprimir la matriz
+// Función para imprimir matriz
 void printMatrix(int **matrix, int size) {
     printf("Matriz generada:\n");
     for (int i = 0; i < size; i++) {
@@ -32,7 +32,8 @@ void printMatrix(int **matrix, int size) {
     }
 }
 
-// Secuencia más larga de 1s consecutivos en la matriz y almacenarla en el puntero 'result'
+// Secuencia más larga de 1s consecutivos en la matriz y 
+//almacenarla en el puntero 'result'
 void findLargestLine(int **matrix, int size, int *result) {
     int secuenciaunos = 0;  // Secuencia temporal de 1s
     int max = 0;            // Mayor secuencia encontrada

@@ -31,7 +31,8 @@ void printMatrix(int **matrix, int size) {
     }
 }
 
-// Secuencia más larga de 1s consecutivos en la matriz y almacenarla en el puntero 'result'
+// Secuencia más larga de 1s consecutivos en la matriz y 
+//almacenarla en el puntero 'result'
 void findLargestLine(int **matrix, int size, int *result) {
     int secuenciaunos = 0;  // Secuencia temporal de 1s
     int max = 0;            // Mayor secuencia encontrada
@@ -125,7 +126,6 @@ int main() {
     // Liberar la memoria asignada
     freeMatrix(matrix, size);
     freeMatrix(transpuesta, size);
-
 
     return 0;
 }
